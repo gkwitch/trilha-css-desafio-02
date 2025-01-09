@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,30 +8,34 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="assets/menu.png" alt="menu">
-            <img src="assets/youtube 1.png" alt="youtube logo">
-            <img src="assets/Center.png" alt="search bar">
-            <img src="assets/video icon.png" alt="video icon">
-            <img src="assets/bell.png" alt="bell icon">
-            <img src="assets/Avatar.png" alt="avatr icon">
+        <div class="container-header">
+            <div class="menu">
+                <img src="assets/menu.png" alt="menu">
+                <img id="ytb" src="assets/youtube 1.png" alt="youtube logo">
+            </div>
+            <div class="searchbar"><img src="assets/Center.png" alt="search bar"></div>
+            <div class="avatar">
+                <img id="icon-v" src="assets/video icon.png" alt="video icon">
+                <img id="icon-a" src="assets/bell.png" alt="bell icon">
+                <img id="icon-av" src="assets/Avatar.png" alt="avatar icon">
+            </div>
         </div>
     </header>
     <main>
         <section class="section-1">
             <div class="container-1">
                 <img id="video" src="assets/image 2.png" alt="video">
-                <h3 class="description">Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h3>
-                <img src="assets/Channel Avatar.png" alt="">
-                <p class="inline">DIO 83,3 mil inscritos</p>
+                <h3 class="description"><span>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</span></h3>
+                <img id="avatardio" src="assets/Channel Avatar.png" alt="">
+                <p class="inline"><span>DIO</span> <br> 83,3 mil inscritos</p>
                 <button class="inline">inscreva-se</button>
-                <img src="" alt="">
+                <img src="assets/thumbs-up.png" alt="">
                 <p class="inline">2 mil</p>
-                <img class="inline" src="" alt="">
+                <img class="inline" src="assets/thumbs-down.png" alt="">
                 <p class="inline">Não gostei</p>
-                <img class="inline"src="" alt="">
+                <img class="inline" src="assets/share-2.png" alt="">
                 <p class="inline">compartilhar</p>
-                <img class="inline" src="" alt="">
+                <img class="inline" src="assets/download.png" alt="">
                 <p class="inline">Download</p>
                 <p class="description">28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</p>
                 <p class="description">Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
@@ -72,6 +76,7 @@
                         <p>1,7 mil visualizações
                             Transmitido há 4 dias</p>
                     </div>
+                </div>
                 <div class="thumb-container">
                     <img src="assets/image 14.png" alt="">
                     <div class="thumb-info">
