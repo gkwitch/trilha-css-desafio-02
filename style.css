@@ -1,3 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    
+    font-family: 'Roboto';
 }
+main{
+    display: inline-flex;
+    width: 98vw;
+    flex: row wrap;
+    justify-content: flex-end;
+}
+.container-1{
+}
+.section-2{
+    display: flex;
+    flex: column nowrap;
+}
+.section-1{
+    margin-right: 20px;
+}
+.inline {
+    display: inline-block;
+}
+#video{
+    width: 1300px;
+}
+.description{
+    display: block;
+    width: 900px;
+}
+.thumb-container{
+    display: flex; 
+    flex-shrink: 0;
+    margin-bottom: 10px;
+
+}
+.thumb-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.thumb-container img {
+}
+
+.thumb-info p {
+    font-size: 0.8em;
+    margin-bottom: 3px;
+}
+span {
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 250px;
+
+}
+
+
