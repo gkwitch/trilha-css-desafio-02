@@ -82,7 +82,7 @@ header{
 span {
     font-weight: bold;
     font-size: 1.2em;
-    width: 250px;
+    width: 270px;
 }
 .description > h3 > p > span{
     font-size: 1.2em;
@@ -90,4 +90,28 @@ span {
 #avatardio{
     width: 50px;
     margin-right: 10px;
+}
+
+.container-1 button {
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 200px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: #CC0000;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.backinfo{
+    display: flex;
+    flex: row nowrap;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.backinfo > p > span {
+    font-weight: normal;
+    margin: 0px 50px 0px 5px;
 }
